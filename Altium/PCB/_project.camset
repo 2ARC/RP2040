@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\_project.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">00BFBFBF</object>
+		<object type="Plated H. Out">0026120F</object>
+		<object type="Edge In">008C8C09</object>
+		<object type="Edge Out">00809854</object>
+		<object type="Volume">9E7D8C59</object>
+		<object type="Background">00898989</object>
+		<layer type="PasteMask">008080C0</layer>
+		<layer type="Silkscreen">00E3E3E3</layer>
+		<layer type="SolderMask">900B2B06</layer>
+		<layer type="Copper">00765223</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="PasteMask" H="35" Er="0.000" color="00689FB1">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_toppastemasklayer.gtp</filename>
+			<filedisp>gerber_toppastemasklayer.gtp</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CBCFCF">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_topsilkscreenlayer.gto</filename>
+			<filedisp>gerber_topsilkscreenlayer.gto</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00002400">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_topsoldermasklayer.gts</filename>
+			<filedisp>gerber_topsoldermasklayer.gts</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00800000">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_toplayer.gtl</filename>
+			<filedisp>gerber_toplayer.gtl</filedisp>
+		</layer>
+		<layer type="Core" H="430" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="004E7D9A">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_innerlayer1.g1</filename>
+			<filedisp>gerber_innerlayer1.g1</filedisp>
+		</layer>
+		<layer type="Core" H="430" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00AE7AB8">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_innerlayer2.g2</filename>
+			<filedisp>gerber_innerlayer2.g2</filedisp>
+		</layer>
+		<layer type="Core" H="430" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="000000D0">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_bottomlayer.gbl</filename>
+			<filedisp>gerber_bottomlayer.gbl</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00000F04">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_bottomsoldermasklayer.gbs</filename>
+			<filedisp>gerber_bottomsoldermasklayer.gbs</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00C9D4DC">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_bottomsilkscreenlayer.gbo</filename>
+			<filedisp>gerber_bottomsilkscreenlayer.gbo</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1570">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\gerber_boardoutlinelayer.gko</filename>
+			<filedisp>gerber_boardoutlinelayer.gko</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="no">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\drill_npth_through.drl</filename>
+			<filedisp>drill_npth_through.drl</filedisp>
+		</drillplate>
+		<drillplate from="top" to="btm" plated="yes" filled="no" microvia="no">
+			<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\drill_pth_through.drl</filename>
+			<filedisp>drill_pth_through.drl</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<ipc356>
+		<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\fabrication testpoint report for pcb_rp2040_2022-08-20.ipc</filename>
+		<filedisp>fabrication testpoint report for pcb_rp2040_2022-08-20.ipc</filedisp>
+	</ipc356>
+
+	<bom>
+		<filename>\\Mac\Home\Documents\Eletrônica\RP2040\Altium\PCB\bom_pcb_rp2040_2022-08-20.csv</filename>
+		<filedisp>bom_pcb_rp2040_2022-08-20.csv</filedisp>
+	</bom>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='3' Autooffset='yes'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes' Autooffset='yes' AutoBtmAcc='yes'/>
+	<BoardOutlineDrawing srctype='1' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='2' removeoutside='yes' horizMargin='5' vertMargin='2.5' brushBlob='1' />
+	<PosSaveRestoreTab>
+		<entry idx='1' pos='-41.1256, -13.2513, -29.1484' rot='-0.468844, 0.256834, -0.406027, 0.741191'/>
+		<entry idx='2' pos='243.0308, 345.1474, -8.7014' rot='-0.472118, 0.113002, -0.203500, 0.850249'/>
+		<entry idx='3' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='4' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='5' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+	</PosSaveRestoreTab>
+
+	<NetList DefaultColor="hash">
+	</NetList>
+
+	<ComponentList>
+		<c RefID="C1" model=""/>
+		<c RefID="C2" model=""/>
+		<c RefID="C3" model=""/>
+		<c RefID="C4" model=""/>
+		<c RefID="C5" model=""/>
+		<c RefID="C6" model=""/>
+		<c RefID="C7" model=""/>
+		<c RefID="C8" model=""/>
+		<c RefID="C9" model=""/>
+		<c RefID="C10" model=""/>
+		<c RefID="C11" model=""/>
+		<c RefID="C12" model=""/>
+		<c RefID="C13" model=""/>
+		<c RefID="C14" model=""/>
+		<c RefID="C15" model=""/>
+		<c RefID="C19" model=""/>
+		<c RefID="C23" model=""/>
+		<c RefID="D3" model=""/>
+		<c RefID="H1" side="top" model=""/>
+		<c RefID="H2" side="top" model=""/>
+		<c RefID="LED1" model=""/>
+		<c RefID="LED2" model=""/>
+		<c RefID="R1" model=""/>
+		<c RefID="R2" model=""/>
+		<c RefID="R3" model=""/>
+		<c RefID="R4" model=""/>
+		<c RefID="R5" model=""/>
+		<c RefID="R6" model=""/>
+		<c RefID="R7" model=""/>
+		<c RefID="R8" model=""/>
+		<c RefID="R9" model=""/>
+		<c RefID="R10" model=""/>
+		<c RefID="SW1" Hide="yes" model=""/>
+		<c RefID="SW2" Hide="yes" model=""/>
+		<c RefID="U1" model=""/>
+		<c RefID="U3" model=""/>
+		<c RefID="U4" model=""/>
+		<c RefID="U5" Hide="yes" model=""/>
+		<c RefID="X1" Hide="yes" model=""/>
+	</ComponentList>
+</CAMsetup>
